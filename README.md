@@ -6,7 +6,6 @@ Welcome to the **Algo Trading** project! This repository implements an algorithm
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Build Status](https://github.com/yourusername/yourrepo/actions/workflows/main.yml/badge.svg)](https://github.com/yourusername/yourrepo/actions)
 
 ---
 
@@ -43,11 +42,12 @@ The goal is to capture potential trading opportunities by identifying overbought
 
 ---
 
-## Installation
+## Backtesting
 
-Clone the repository and install the required dependencies:
+Test your strategy with historical market data using the backtesting module:
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
-pip install -r requirements.txt
+python backtest.py --data_path data/historical_data.csv --window 20 --std_multiplier 2
+
+
+
