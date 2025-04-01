@@ -13,8 +13,6 @@ Welcome to the **Algo Trading** project! This repository implements an algorithm
 
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Backtesting](#backtesting)
 - [Visualization](#visualization)
 - [Contributing](#contributing)
@@ -46,8 +44,28 @@ The goal is to capture potential trading opportunities by identifying overbought
 
 Test your strategy with historical market data using the backtesting module:
 
-```bash
-python backtest.py --data_path data/historical_data.csv --window 20 --std_multiplier 2
+![carbon (8)](https://github.com/user-attachments/assets/f3322f91-2f82-472e-a0ac-d0018beb011c)
+
+## Visualization
+
+Visualization is key to understanding how your strategy interacts with market data. The visualization component of this project generates charts that plot:
+
+- **Historical Price Data:** Provides a timeline of market movements.
+- **Simple Moving Average (SMA):** Smoothens short-term fluctuations to highlight the overall trend.
+- **Bollinger Bands:** Displays the upper and lower bands that indicate potential overbought or oversold conditions.
+- **Trading Signals:** Marks buy and sell signals on the chart, indicating potential entry and exit points.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. **Fork the Repository:** Click the "Fork" button at the top right of this repository.
+2. **Create a New Branch:** Create a branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/your-feature-name
+
+
+
 
 
 
