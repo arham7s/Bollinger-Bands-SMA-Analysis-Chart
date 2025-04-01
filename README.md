@@ -1,6 +1,5 @@
 # Bollinger-Bands-SMA-Analysis-Chart
 
-# Algo Trading with Bollinger Bands & SMA
 
 Welcome to the **Algo Trading** project! This repository implements an algorithmic trading strategy that leverages Bollinger Bands and a Simple Moving Average (SMA) to generate trading signals based on market volatility and trend confirmation.
 
@@ -16,7 +15,6 @@ Welcome to the **Algo Trading** project! This repository implements an algorithm
 - [Backtesting](#backtesting)
 - [Visualization](#visualization)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -55,14 +53,20 @@ Visualization is key to understanding how your strategy interacts with market da
 - **Bollinger Bands:** Displays the upper and lower bands that indicate potential overbought or oversold conditions.
 - **Trading Signals:** Marks buy and sell signals on the chart, indicating potential entry and exit points.
 
+![download (5)](https://github.com/user-attachments/assets/cfb59ddd-8de9-4737-8481-b65c4e51ecbb)
+
+
 ## Contributing
 
-Contributions are welcome! Please follow these steps to contribute:
+After making your changes, you can commit them to the repository using the following steps:
 
-1. **Fork the Repository:** Click the "Fork" button at the top right of this repository.
-2. **Create a New Branch:** Create a branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature/your-feature-name
+1. **Navigate to Your Repository Directory:**
+
+   Open your terminal and change to your repository’s root directory:
+   
+   ![image](https://github.com/user-attachments/assets/a95f1aec-769c-4ba6-8507-0d364309404a)
+
+
 
 
 
